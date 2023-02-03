@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/servicios.css">
     <title>Document</title>
 </head>
@@ -39,21 +41,21 @@
         </div>
     </header>
     <main id="servicios">
-        <h1>SERVICIOS</h1>
+        <h1 class="animate__animated  animate__heartBeat">SERVICIOS</h1>
         <section id="serv1">
-            <img class="img" src="../img/biblioteca.jpg" alt="">
+            <img class="img" data-aos="flip-left" src="../img/biblioteca.jpg" alt="">
             <h2 class="t1">BIBLIOTECA</h2>
             <div>
-                <p>La biblioteca ofrece servicio de consulta in situ, dirigido a especialistas de arte moderno y
+                <p data-aos="fade-down">La biblioteca ofrece servicio de consulta in situ, dirigido a especialistas de arte moderno y
                     contemporáneo así como al público en general. Cuenta con material bibliográfico, hemerográfico y
                     audiovisual.</p>
             </div>
         </section>
         <section id="serv2">
-            <img class="img" src="../img/archivo.jpg" alt="">
+            <img class="img" data-aos="flip-left" src="../img/archivo.jpg" alt="">
             <h2 class="t1">ARCHIVO</h2>
             <div>
-                <p>En este espacio se puede encontrar un amplio acervo bibliográfico especializado en arte moderno.
+                <p data-aos="fade-down">En este espacio se puede encontrar un amplio acervo bibliográfico especializado en arte moderno.
                     Dentro de la colección de casi 17,934 piezas, se pueden consultar libros en español y otros
                     idiomas, catálogos de exposiciones presentadas en el museo desde su apertura en 1964 así como
                     material fotográfico y audiovisual en diferentes formatos.</p>
@@ -61,43 +63,43 @@
         </section>
         <section id="serv3">
             <div>
-                <img class="img3" src="../img/tienda.jpg" alt="">
+                <img class="img3" data-aos="flip-left" src="../img/tienda.jpg" alt="">
             </div>
             <h2>TIENDA</h2>
             <div>
-                <p>Este espacio abierto recientemente ofrece a los visitantes una variedad de productos relacionados
+                <p data-aos="fade-right">Este espacio abierto recientemente ofrece a los visitantes una variedad de productos relacionados
                     con la colección permanente del museo y sus grandes autores, así como objetos de diseñadores y
                     artesanos mexicanos; también podrás encontrar los catálogos de las diversas exposiciones del MAM.</p>
             </div>
         </section>
         <section id="serv4">
             <div>
-                <img class="img4" src="../img/ESTACIONAMIENTOS.jpg" alt="">
+                <img class="img4" data-aos="flip-left" src="../img/ESTACIONAMIENTOS.jpg" alt="">
             </div>
             <h2>ESTACIONAMIENTO</h2>
             <div>
-                <p>El museo cuenta con estacionamiento. El acceso es por Paseo de la Reforma.
+                <p data-aos="fade-left">El museo cuenta con estacionamiento. El acceso es por Paseo de la Reforma.
                     Horario 10 a 17:30 h
                     Cuota $15, fracción $3.75 </p>
             </div>
         </section>
         <section id="serv5">
             <div>
-                <img class="img5" src="../img/visita.jpg" alt="">
+                <img class="img5" data-aos="flip-left" src="../img/visita.jpg" alt="">
             </div>
             <h2>VISITAS GUIADAS</h2>
             <div>
-                <p>Ven y recorre nuestras salas de exposición y el jardín escultórico y disfruta
+                <p data-aos="fade-right">Ven y recorre nuestras salas de exposición y el jardín escultórico y disfruta
                     del arte con nuestros diferentes tipos de visitas guiadas creadas especialmente para ti.</p>
             </div>
         </section>
         <section id="serv6">
             <div>
-                <img class="img6" src="../img/cafeteria.jpg" alt="">
+                <img class="img6" data-aos="flip-left" src="../img/cafeteria.jpg" alt="">
             </div>
             <h2>CAFETERIA</h2>
             <div>
-                <p>Ubicada en la planta baja de la Sala Fernando Gamboa, rodeada por el Jardín
+                <p data-aos="fade-left">Ubicada en la planta baja de la Sala Fernando Gamboa, rodeada por el Jardín
                     Escultórico del MAM, Irracional Café ofrece un menú atractivo y variado al
                     alcance de todos los bolsillos. Compartiendo la riqueza del museo, sus
                     exposiciones y actividades, la cafetería te invita a los visitantes a 
@@ -119,6 +121,8 @@
             <div><a href="https://vimeo.com/mammx"><img src="../img/vimeo.png" alt="vimeo"></a></div>
         </div>
         <div class="button"><button>Inicio de Sesión</button></div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
     </footer>
     </div>
 </body>
