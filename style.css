@@ -35,7 +35,7 @@ header nav ul li a{
     font-style:normal;
     /*line-break: 50px;*/
     font-size: 105%;
-    font-weight: 70%;
+    font-weight: bold;
     color: black;
     text-decoration: none;
 }

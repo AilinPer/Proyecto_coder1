@@ -58,7 +58,7 @@ h1{
     padding-top: 9%;
     font-family: 'Cormorant Garamond';
     font-style: normal;
-    /*font-weight: 700px;*/
+    font-weight: bold;
     font-size: 50px;
     /*line-height: 90px;*/
     color: rgba(244, 150, 9, 0.72);
@@ -136,7 +136,8 @@ footer img{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-    /**/
+}
+.footer:hover{
     
 }
 .contacto{
