@@ -168,6 +168,7 @@ footer img{
 }
 .contacto:hover{
     color:white;
+    transition: 3s;
 }
 .button{
     margin: 3.5% 3.5%;
