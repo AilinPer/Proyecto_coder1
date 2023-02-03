@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fondoexposiciones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    position:absolute;
+    width: 1348px;
+    height: 100px;
+    left: 1px;
+    top: 0px;
+    background-color: #D9B310;
+}
+
+header .nav{
+    display: inline-block;
+    width: 30%;
+    margin-left: 70%;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul  li a{
+    display: inline-block;
+    width: 10%;
+    margin-right: 20%;
+    margin-top: 2%;
+    list-style: none;
+    font-family: 'Cormorant Garamond';
+    font-style:normal;
+    /*line-break: 50px;*/
+    font-size: 105%;
+    font-weight: 70px;
+    color: black;
+    text-decoration: none;
+}
+header a:hover{
+    color:white;
+}
+header .logo{
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+h1{
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    width: 450px;
+    height: 96px;
+    padding-left: 500px;
+    padding-top: 9%;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    /*font-weight: 700px;*/
+    font-size: 50px;
+    /*line-height: 90px;*/
+    color: rgba(244, 150, 9, 0.72);
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+section#cont1, section#cont2{
+    display: inline-block;
+    width: 40%;
+    margin-left: 6%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    align-content: center;
+    text-align: left;
+}
+section#cont3, section#cont4, section#cont5, section#cont6{
+    display: inline-block;
+    width: 40%;
+    margin-left: 6%;
+    margin-bottom: 5%;
+    align-content: center;
+}
+section#cont2, section#cont4, section#cont6{
+    text-align: right;
+}
+.img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 8%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 1348px;
+    height: 120px;
+    background-color: #D9B310;
+
+}
+footer img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+    margin: 35px 50px;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    /**/
+    
+}
+.contacto{
+    margin: 3.5% 3.5%;
+    font-size: 200%;
+}
+.contacto:hover{
+    color:white;
+}
+.button{
+    margin: 3.5% 3.5%;
+    
+}
+.button button{
+    background:#ee8700;
+    border-radius: 10px;
+    font-size:25px;
+    border-color: #ff6b15;
+    font-family: 'Cormorant Garamond';
+
+}
