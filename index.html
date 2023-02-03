@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>INICIO</title>
 </head>
@@ -40,9 +41,9 @@
     <h1 class="titulo animate__animated animate__bounce">NUESTRA HISTORIA</h1> 
     <!--Este primer main contiene la primera imagen que se verá despues del titulo, esta imagen se encontará del
     lado izquierdo-->
-        <section class="text1">
+        <section class="text1" data-aos="fade-down">
             <p class="part1">
-            <img class="img1" src="../img/img_0739_4.jpg" alt="historia">
+            <img class="img1" data-aos="flip-left" src="../img/img_0739_4.jpg" alt="historia">
             El Museo de Arte Moderno (MAM) es un recinto cultural dedicado principalmente a preservar, estudiar 
             y difundir el arte mexicano producido a partir de la década de 1930.
             Su sede, ubicada en Paseo de la Reforma, dentro del Bosque de Chapultepec de la Ciudad de México,
@@ -55,11 +56,11 @@
     </section>
     <!-- Este otro main contiene otra imagen que será el centro de todo el body -->
         <div class="centro">
-            <img class="img2" src="../img/facha-pano_1.jpg" alt="historia">
+            <img class="img2" data-aos="flip-down" src="../img/facha-pano_1.jpg" alt="historia">
         </div>
     <!--Este div contiene la información que se encontrará debajo de la imagen del centro-->
         <section id="text2">
-                    <p class="part2">
+                    <p class="part2" data-aos="zoom-in-up">
                         Su gestión busca rebasar la idea del museo como vitrina patrimonial y reforzar su percepción
                         como un centro cultural promotor de experiencias y servicios culturales. Ello, a través de 
                         narrativas museológicas actuales y de un activo programa público interdisciplinario. El MAM
@@ -72,16 +73,18 @@
                         Diego Rivera, Jesús Guerrero Galván, María Izquierdo, Rufino Tamayo entre muchos más</p>
         </section>
     <!--Este es un subtema del tema y se encuentra del lado izquierdo -->
-    <h2>ARQUITECTURA</h2>
+    <h2 class="titulo2 animate__animated animate__shakeX">ARQUITECTURA</h2>
     <!--Este div contiene el texto que hablará sobre el subtema y se colocará del lado izquierdo-->
         <section class="text3">
-            <p class="part3">
+            <p class="part3"  data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
                 El Museo de Arte Moderno tiene el compromiso de ser un espacio público que ofrece a sus visitantes una experiencia individual y trascendente.
                 Su gestión busca rebasar la idea del museo como vitrina patrimonial y reforzar su percepción como un centro cultural promotor de experiencias 
                 y servicios culturales. Ello, a través de narrativas museológicas actuales y de un activo programa público interdisciplinario. El MAM intenta
                 hacer énfasis en perfeccionar y diversificar la infraestructura de servicios, así como contemporaneizar el diseño y la perspectiva de las 
                 exposiciones y los programas paralelos, siempre acorde con el mandato y  la misión del MAM.
-                <img class="img3" src="../img/arquitectura-mam.jpg" alt="historia"> 
+                <img class="img3" data-aos="flip-right" src="../img/arquitectura-mam.jpg" alt="historia"> 
             </p>
         </section>
     <!--Este main contiene la imagen representativa de la información y se colocará del lado derecho-->
@@ -95,6 +98,8 @@
                 <div><a href="https://vimeo.com/mammx"><img src="../img/vimeo.png" alt="vimeo"></a></div>
         </div>
     <div class="button"><button>Inicio de Sesión</button></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
 </footer>
 </body>
 </html>

@@ -42,7 +42,7 @@ header nav ul li a{
 header a:hover{
     color:white;
     transition: 2s;
-    font-weight: 90%;
+    font-size: 115%;
 }
 header .logo{
     width: 20%;
@@ -123,7 +123,7 @@ header .logo{
     float:left;
     border-radius: 10%;
 }
-h2{
+.titulo2{
     width: 646px;
     height: 96px;
     margin: 0px 100px 0px 100px;
