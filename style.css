@@ -41,6 +41,8 @@ header nav ul li a{
 }
 header a:hover{
     color:white;
+    transition: 2s;
+    font-weight: 90%;
 }
 header .logo{
     width: 20%;
