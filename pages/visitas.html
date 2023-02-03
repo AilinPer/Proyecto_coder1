@@ -4,6 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/visitas.css">
     <title>VISITAS</title>
 </head>
@@ -35,11 +37,11 @@
             </div>
     </header>
     <main id="visitas">
-        <h1>VISITAS</h1>
+        <h1 class="animate__animated animate__lightSpeedInRight">VISITAS</h1>
             <section id="part1">
-                <img class="img" src="../img/Museo-de-Arte-Moderno.jpg" alt="">
+                <img class="img" data-aos="flip-up" src="../img/Museo-de-Arte-Moderno.jpg" alt="">
                     <div>
-                        <p>El departamento tiene como misión, brindar a los diferentes públicos experiencias
+                        <p data-aos="zoom-in">El departamento tiene como misión, brindar a los diferentes públicos experiencias
                             significativas con la colección del Museo de Arte Moderno y sus exposiciones temporales,
                             a través de programas educativos y académicos que fortalezcan a la institución como un
                             espacio vivo, favorable para el auto conocimiento, el diálogo, el disfrute y el aprendizaje. </p>
@@ -47,40 +49,40 @@
             </section>
         <h2>ACTIVIDADES</h2>
             <section id="part2">
-                <img class="img1" src="../img/_sam0602.jpg" alt="">
+                <img class="img1" data-aos="flip-up" src="../img/_sam0602.jpg" alt="">
                     <h3>TALLERES, CURSOS Y ACTIVIDADES ACADÉMICAS</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            <p data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Asperiores quibusdam cumque eum iste, rem vitae aspernatur 
                             minus perferendis sed quis inventore quae reprehenderit sit commodi, 
                             voluptatem ipsam, pariatur fuga odio.</p>
                         </div>
             </section>
             <section id="part3">
-                <img class="img2" src="../img/_sam0787.jpg" alt="">
+                <img class="img2" data-aos="flip-up" src="../img/_sam0787.jpg" alt="">
                     <h3>VISITAS MEDIADAS</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            <p data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Asperiores quibusdam cumque eum iste, rem vitae aspernatur 
                             minus perferendis sed quis inventore quae reprehenderit sit commodi, 
                             voluptatem ipsam, pariatur fuga odio.</p>
                         </div>
             </section>
             <section id="part4">
-                <img class="img3" src="../img/jg5ksa7m.png" alt="">
+                <img class="img3" data-aos="flip-up" src="../img/jg5ksa7m.png" alt="">
                     <h3>VISITAS INSTITUCIONALES, A PÚBLICO EN GENERAL Y GRUPOS ESPECIALES.</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            <p data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Asperiores quibusdam cumque eum iste, rem vitae aspernatur 
                             minus perferendis sed quis inventore quae reprehenderit sit commodi, 
                             voluptatem ipsam, pariatur fuga odio.</p>
                         </div>
             </section>
             <section id="part5">
-                <img class="img4" src="../img/img_9299.jpg" alt="">
+                <img class="img4" data-aos="flip-up" src="../img/img_9299.jpg" alt="">
                     <h3>SERVICIO SOCIAL Y PRÁCTICAS PROFESIONALES</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            <p data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Asperiores quibusdam cumque eum iste, rem vitae aspernatur 
                             minus perferendis sed quis inventore quae reprehenderit sit commodi, 
                             voluptatem ipsam, pariatur fuga odio.</p>
@@ -96,6 +98,8 @@
                 <div><a href="https://vimeo.com/mammx"><img src="../img/vimeo.png" alt="vimeo"></a></div>
             </div>
         <div class="button"><button>Inicio de Sesión</button></div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
     </footer>
 </body>
 </html>
