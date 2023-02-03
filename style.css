@@ -50,7 +50,7 @@ header .logo{
     margin-left: 10%;
     margin-top: 2.5%;
 }
-h1{
+.titulo{
     /*display: inline-block;*/
     /*position: absolute;*/
     width: 450px;
