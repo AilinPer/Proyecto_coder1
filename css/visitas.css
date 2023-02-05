@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../img/fondovisitas.jpg);
+    background-image: url("../img/fondovisitas.jpg");
     background-repeat: round;
     background-size: cover;
     font-family: 'Camorand Garamond';
