@@ -93,6 +93,9 @@ section#contenedor{
     text-align: right;
     height: auto;
 }
+p{
+    font-size: 120%;
+}
 .img{
     width: 100%;
     height: 50%;
@@ -184,6 +187,12 @@ footer img{
     }
     .cont6{
         color:white;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h2:hover{
+        font-size: 20px;
     }
 
 }
