@@ -101,6 +101,12 @@ h3:hover{
     width: 50%;
     text-align: justify;
 }
+.art1, .art2, .art3, .art4{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
 .art2, .art4{
     text-align: right;
 } 
@@ -112,14 +118,11 @@ p{
     height: 35%;
     margin-bottom: 3%;
     border-radius: 20px;
-    justify-items: center;
-    align-content: center;
 }
 .img1, .img2, .img3, .img4{
     width: 50%;
     border-radius: 15px; 
     justify-items: center;
-    align-content: center;
     margin-bottom: 3%;
 }
 footer{
@@ -210,9 +213,5 @@ footer img{
     h3:hover{
         color: rgba(14, 58, 206, 0.692);
         font-size: 20px;
-    }
-    .art1 .img1{
-        justify-content:center;
-        align-items: center;
     }
 }
