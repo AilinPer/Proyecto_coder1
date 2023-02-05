@@ -9,7 +9,7 @@
     background-color: aqua; 
 }*/
 body{
-    background-image: url(./img/fondoinicio.jpg);
+    background-image: url("./img/fondoinicio.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     font-family: 'Camorand Garamond';
