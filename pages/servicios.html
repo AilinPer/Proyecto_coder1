@@ -9,77 +9,88 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/servicios.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>SERVICIOS</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="../img/mam-logo.svg" alt="">
-        </div>
-        <div class="nav">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="../index.html">INICIO</a>
-                    </li>
-                    <li>
-                        <a href="exposiciones.html">EXPOSICIONES</a>
-                    </li>
-                    <li>
-                        <a href="galeria.html">GALERIA</a>
-                    </li>
-                    <li>
-                        <a href="visitas.html">VISITAS</a>
-                    </li>
-                    <li>
-                        <a href="servicios.html">SERVICIOS</a>
-                    </li>
-                </ul>
+        <header>
+            <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <img class="logo" src="../img/mam-logo.svg">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./exposiciones.html">EXPOSICIONES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./galeria.html">GALERIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./visitas.html">VISITAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
             </nav>
-        </div>
+            </div>
     </header>
         <main id="servicios">
-            <h1 class="animate__animated  animate__heartBeat">SERVICIOS</h1>
+            <h1 class="titulo-serv" class="animate__animated  animate__heartBeat">SERVICIOS</h1>
             <section class="serv1">
-                <img class="img" data-aos="flip-left" src="../img/biblioteca.jpg" alt="">
-                <h2>BIBLIOTECA</h2>
-                <p data-aos="fade-down">La biblioteca ofrece servicio de consulta in situ, dirigido a especialistas de arte moderno y
-                contemporáneo así como al público en general. Cuenta con material bibliográfico, hemerográfico y
-                audiovisual.</p>
-                <img class="img" data-aos="flip-left" src="../img/archivo.jpg" alt="">
-                <h2>ARCHIVO</h2>
-                <p data-aos="fade-down">En este espacio se puede encontrar un amplio acervo bibliográfico especializado en arte moderno.
-                Dentro de la colección de casi 17,934 piezas, se pueden consultar libros en español y otros
-                idiomas, catálogos de exposiciones presentadas en el museo desde su apertura en 1964 así como
-                material fotográfico y audiovisual en diferentes formatos.</p>
+                <article class="biblioteca">
+                    <img class="img-serv" data-aos="flip-left" src="../img/biblioteca.jpg" alt="">
+                    <h2 class="sub-serv">BIBLIOTECA</h2>
+                    <p class="texto-serv" data-aos="fade-down">La biblioteca ofrece servicio de consulta in situ, dirigido a especialistas de arte moderno y
+                    contemporáneo así como al público en general. Cuenta con material bibliográfico, hemerográfico y
+                    audiovisual.</p>
+                </article>
+                <article class="archivo">
+                    <img class="img-serv" data-aos="flip-left" src="../img/archivo.jpg" alt="">
+                    <h2 class="sub-serv">ARCHIVO</h2>
+                    <p class="texto-serv" data-aos="fade-down">En este espacio se puede encontrar un amplio acervo bibliográfico especializado en arte moderno.
+                    Dentro de la colección de casi 17,934 piezas, se pueden consultar libros en español y otros
+                    idiomas, catálogos de exposiciones presentadas en el museo desde su apertura en 1964 así como
+                    material fotográfico y audiovisual en diferentes formatos.</p>
+                </article>
             </section>
             <section class="serv2">
                 <article class="tienda">
-                    <img class="img" data-aos="flip-left" src="../img/tienda.jpg" alt="">
-                    <h3>TIENDA</h3>
-                    <p data-aos="fade-right">Este espacio abierto recientemente ofrece a los visitantes una variedad de productos relacionados
+                    <img class="img-serv" data-aos="flip-left" src="../img/tienda.jpg" alt="">
+                    <h3 class="sub-sub-serv">TIENDA</h3>
+                    <p class="texto1-serv" data-aos="fade-right">Este espacio abierto recientemente ofrece a los visitantes una variedad de productos relacionados
                     con la colección permanente del museo y sus grandes autores, así como objetos de diseñadores y
                     artesanos mexicanos; también podrás encontrar los catálogos de las diversas exposiciones del MAM.</p>
                 </article>
                 <article class="estacionamiento">
-                    <img class="img" data-aos="flip-left" src="../img/ESTACIONAMIENTOS.jpg" alt="">
-                    <h3>ESTACIONAMIENTO</h3>
-                    <p data-aos="fade-left">El museo cuenta con estacionamiento. El acceso es por Paseo de la Reforma.
+                    <img class="img-serv" data-aos="flip-left" src="../img/ESTACIONAMIENTOS.jpg" alt="">
+                    <h3 class="sub-sub-serv"">ESTACIONAMIENTO</h3>
+                    <p class="texto1-serv" data-aos="fade-left">El museo cuenta con estacionamiento. El acceso es por Paseo de la Reforma.
                     Horario 10 a 17:30 h
                     Cuota $15, fracción $3.75 </p>
                 </article>
                 <article class="visitas">
-                    <img class="img" data-aos="flip-left" src="../img/visita.jpg" alt="">
-                    <h3>VISITAS GUIADAS</h3>
-                    <p data-aos="fade-right">Ven y recorre nuestras salas de exposición y el jardín escultórico y disfruta
+                    <img class="img-serv" data-aos="flip-left" src="../img/visita.jpg" alt="">
+                    <h3 class="sub-sub-serv">VISITAS GUIADAS</h3>
+                    <p class="texto1-serv" data-aos="fade-right">Ven y recorre nuestras salas de exposición y el jardín escultórico y disfruta
                     del arte con nuestros diferentes tipos de visitas guiadas creadas especialmente para ti.</p>
                 </article>
                 <article class="cafe">
-                    <img class="img" data-aos="flip-left" src="../img/cafeteria.jpg" alt="">
-                    <h3>CAFETERIA</h3>
-                    <p data-aos="fade-left">Ubicada en la planta baja de la Sala Fernando Gamboa, rodeada por el Jardín
+                    <img class="img-serv" data-aos="flip-left" src="../img/cafeteria.jpg" alt="">
+                    <h3 class="sub-sub-serv">CAFETERIA</h3>
+                    <p class="texto1-serv" data-aos="fade-left">Ubicada en la planta baja de la Sala Fernando Gamboa, rodeada por el Jardín
                     Escultórico del MAM, Irracional Café ofrece un menú atractivo y variado al
                     alcance de todos los bolsillos. Compartiendo la riqueza del museo, sus
                     exposiciones y actividades, la cafetería te invita a los visitantes a 
@@ -102,6 +113,7 @@
         <div class="button"><button>Inicio de Sesión</button></div>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </footer>
     </div>
 </body>

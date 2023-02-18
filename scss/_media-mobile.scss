@@ -1,0 +1,32 @@
+@media (max-width:320px){
+    footer{
+        @include medias;
+        align-items:center ;
+        img{
+            width: 7vw;
+        }
+        .contacto{
+            margin: 3.5% 3.5%;
+            h6{
+                font-size: 4vw;
+                font-weight: bold;
+                &:hover{
+                    color:white;
+                    transition: 3s;
+                    text-shadow: $shadow;
+                }
+            }
+        }
+        .button{
+            margin: 3.5% 3.5%;
+            button{
+            background-color: $fondo_button;
+            border-radius: 10px;
+            font-size:5.5vw;
+            font-weight: bold;
+            border-color: $borde_button;
+            font-family: $font;
+            }
+        }
+    }
+}

@@ -6,41 +6,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/exposiciones.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
     <title>EXPOSICIONES</title>
 </head>
-<body>
+<body class="cuerpoe">
     <header>
-        <div class="logo">
-            <img src="../img/mam-logo.svg" alt=""></div>
-            <div class="nav">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="../index.html">INICIO</a>
-                        </li>
-                        <li>
-                            <a href="exposiciones.html">EXPOSICIONES</a>
-                        </li>
-                        <li>
-                            <a href="galeria.html">GALERIA</a>
-                        </li>
-                        <li>
-                            <a href="visitas.html">VISITAS</a>
-                        </li>
-                        <li>
-                            <a href="servicios.html">SERVICIOS</a>
-                        </li>
-                    </ul>
-                </nav>
+        <header>
+            <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <img class="logo" src="../img/mam-logo.svg">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./exposiciones.html">EXPOSICIONES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./galeria.html">GALERIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./visitas.html">VISITAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+            </nav>
             </div>
     </header>
     <main id="expo">
         <h1 class="animate__animated animate__bounce">EXPOSICIONES</h1>
-        <section id="contenedor">
-                <article class="cont1">
+        <section class="contenedor-tarjetas">
+                <article class="cont">
                     <img class="img" data-aos="flip-up" src="../img/15863-IMG_BG_POST-tiempos_discontinuos_ok.jpg" alt="">
-                    <h2>PAISAJES FRAGMENTADOS</h2>
+                    <h2 class="sub">PAISAJES FRAGMENTADOS</h2>
                     <p data-aos="zoom-in-right">
                     Esta muestra reúne un panorama heterogéneo de pintura, gráfica, fotografía y escultura producida en
                     México, entre 1975 y 1994, periodo caracterizado por la diversidad de las manifestaciones estéticas, 
@@ -48,9 +56,9 @@
                     Paisajes fragmentados presenta obra de artistas como Xavier Esqueda, Julio Galán, Eloy Tarcisio,
                     Mónica Castillo, Yolanda Andrade, Marco Antonio Cruz, etc.</p>
                 </article>
-                <article class="cont2">
+                <article class="cont">
                     <img class="img" data-aos="flip-up" src="../img/9063-IMG_BG_ACT-manifiestos-portada.jpg" alt="">
-                        <h2>MANIFIESTOS DEL ARTE MEXICANO</h2>
+                        <h2 class="sub">MANIFIESTOS DEL ARTE MEXICANO</h2>
                                 <p data-aos="zoom-in-left">
                                 Manifiestos es una exposición que nos muestra la reunión que hubo entre David Alfaro 
                                 Siqueiros y Diego Rivera en París para darle comienzó a un proyecto que después seria 
@@ -59,18 +67,18 @@
                                 toda elaboración posterior sobre la estética nacional, la modernidad y la independencia
                                 del arte con respecto de la academia y otros yugos institucionales.</p>
                         </article>
-                <article class="cont3">
+                <article class="cont">
                     <img class="img" data-aos="flip-up" src="../img/f1280x720-300734_432409_5050.jpg" alt="">
-                        <h2>TERRITORIOS DE LA MEMORIA</h2>
+                        <h2 class="sub">TERRITORIOS DE LA MEMORIA</h2>
                                 <p data-aos="zoom-in-right">Territorios de la memoria presenta un panorama del periodo 1985-2018, marcado por
                                 transiciones en los ámbitos social, cultural y político. Esta exposición procede
                                 en el cruce de hechos e interpretaciones, relacionándolos con actores, lugares y 
                                 situaciones reales. Los temas están expuestos en cuatro territorios que ofrecen 
                                 diversas lecturas sobre el devenir de nuestra sociedad y su situación actual.</p>
                         </article>
-                <article class="cont4">
+                <article class="cont">
                     <img class="img" data-aos="flip-up" src="../img/6153ffc9e6591.jpeg" alt="">
-                        <h2>EMMA HURTADO Y DIEGO RIVERA</h2>                            
+                        <h2 class="sub">EMMA HURTADO Y DIEGO RIVERA</h2>                            
                             <div>
                                 <p data-aos="zoom-in-left">
                                 Esta exposición profundiza en la labor cultural de Emma Hurtado, figura clave de
@@ -79,9 +87,9 @@
                                 del México de la primera mitad del siglo XX.</p>
                             </div>
                         </article>
-                <article class="cont5">
+                <article class="cont">
                     <img class="img" data-aos="flip-up" src="../img/image.jpg" alt="">
-                        <h2>REMEDIOS VARO</h2>
+                        <h2 class="sub">REMEDIOS VARO</h2>
                                 <p data-aos="zoom-in-right">
                                 La presente exposición ofrece una mirada comprehensiva de Remedios Varo, en el
                                 contexto de la modernidad artística, a través de tres líneas de aproximación:
@@ -89,9 +97,9 @@
                                 fortuna crítica.</p>
                             </div>
                         </article>
-                <article class="cont6">
+                <article class="cont">
                     <img class="img" data-aos="flip-up" src="../img/fuegoprix.png" alt="">
-                        <h2>PRIX PICTET</h2>
+                        <h2 class="sub">PRIX PICTET</h2>
                                 <p data-aos="zoom-in-left">
                                 El Prix Pictet es el premio dedicado a la fotografía y sostenibilidad más importante
                                     del mundo. En esta ocasión te presentamos a los finalistas y ganadores de su novena
@@ -110,6 +118,7 @@
             <div class="button"><button>Inicio de Sesión</button></div>
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </footer>
 </body>
 </html>

@@ -1,0 +1,697 @@
+/*-----------------------INDEX---------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../img/fondoinicio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Camorand Garamond"; }
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #D9B310; }
+  header .logo {
+    width: 30%;
+    padding-left: 5%; }
+  header .ml-auto {
+    margin-left: 50%;
+    margin-top: 2%; }
+  header .collapse {
+    justify-content: end; }
+  header li {
+    padding: 0px 1%;
+    list-style: none; }
+    header li .nav-link {
+      margin-top: 2%;
+      list-style: none;
+      font-family: "Camorand Garamond";
+      font-style: normal;
+      font-size: 100%;
+      font-weight: bold;
+      color: black;
+      text-decoration: none; }
+      header li .nav-link:hover {
+        color: white;
+        transition: 2s;
+        font-size: 115%;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 20%;
+    padding-left: 5%; }
+  .ml-auto {
+    margin-left: 50%;
+    margin-top: 2%; }
+  .collapse {
+    justify-content: end; } }
+
+@media (max-width: 320px) {
+  .logo {
+    width: 20%;
+    padding-left: 5%; }
+  .ml-auto {
+    margin-left: 50%;
+    margin-top: 2%; }
+  .collapse {
+    justify-content: end; } }
+
+#index {
+  padding: 30px 100px; }
+
+h1 {
+  text-align: center;
+  font-family: "Camorand Garamond";
+  font-style: normal;
+  font-size: 4vw;
+  color: #f49609b8;
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.text1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+  font-family: "Camorand Garamond";
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: justify; }
+  .text1 .img1 {
+    width: 45vw;
+    padding: 0 15px;
+    float: left;
+    border-radius: 10%; }
+
+.centro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  border-radius: 10px; }
+  .centro .img2 {
+    border-radius: 40px;
+    width: 100%;
+    height: 100%; }
+
+.text2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  margin: 100px 0px;
+  font-family: "Camorand Garamond";
+  font-size: 1.5vw;
+  font-weight: bolder; }
+
+h2 {
+  font-family: "Camorand Garamond";
+  font-style: normal;
+  font-size: 2.5vw;
+  color: #f49609b8;
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.text3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  font-family: "Camorand Garamond";
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: justify; }
+  .text3 .img3 {
+    width: 45vw;
+    padding: 0 15px;
+    float: left;
+    border-radius: 10%; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 120px;
+  background-color: #D9B310; }
+  footer img {
+    width: 3vw; }
+  footer .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center; }
+  footer .contacto {
+    margin: 3.5% 3.5%;
+    font-size: 3.3vw; }
+  footer .contacto:hover {
+    color: white;
+    transition: 3s;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  footer .button {
+    margin: 3.5% 3.5%; }
+  footer .button button {
+    background: #ee8700;
+    border-radius: 10px;
+    font-size: 2vw;
+    border-color: #ff6b15;
+    font-family: "Camorand Garamond"; }
+
+/*----------------MEDIA QUERIES INDEX----------------------------------*/
+@media (max-width: 320px) {
+  #index {
+    padding: 15px 20px; }
+  .text1 {
+    margin: 0px;
+    font-size: 5.3vw; }
+  h1 {
+    font-size: 6vw; }
+  .centro .img2 {
+    border-radius: 8px;
+    width: 100%;
+    height: 80%;
+    padding-top: 10%; }
+  .text2 {
+    font-size: 5.3vw; }
+  h2 {
+    font-weight: bold;
+    font-size: 7vw; }
+  .text3 {
+    font-size: 5.3vw; } }
+
+@media (max-width: 320px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer img {
+      width: 7vw; }
+    footer .contacto {
+      margin: 3.5% 3.5%; }
+      footer .contacto h6 {
+        font-size: 4vw;
+        font-weight: bold; }
+        footer .contacto h6:hover {
+          color: white;
+          transition: 3s;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+    footer .button {
+      margin: 3.5% 3.5%; }
+      footer .button button {
+        background-color: #ee8700;
+        border-radius: 10px;
+        font-size: 5.5vw;
+        font-weight: bold;
+        border-color: #ff6b15;
+        font-family: "Camorand Garamond"; } }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 7vw; }
+  #index {
+    margin: 15px 15px; }
+  .text1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin: 5px; }
+    .text1 .img1 {
+      width: 70vw;
+      margin-bottom: 5%; }
+  .centro .img2 {
+    width: 100%;
+    height: 100%; }
+  .text2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vw;
+    margin: 50px 0px; }
+  h2 {
+    font-size: 5vw;
+    font-weight: bold; }
+  .text3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vw;
+    margin: 50px 0px; }
+    .text3 .img3 {
+      width: 70vw;
+      height: 50vw;
+      margin-top: 40px; } }
+
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer img {
+      width: 3.5vw; }
+    footer .contacto {
+      margin: 2% 2%; }
+      footer .contacto h6 {
+        font-size: 2.5vw;
+        font-weight: bold; }
+        footer .contacto h6:hover {
+          color: white;
+          transition: 3s;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+    footer .button {
+      margin: 2% 2%; }
+      footer .button button {
+        background: #ee8700;
+        border-radius: 10px;
+        font-size: 2.5vw;
+        font-weight: bold;
+        border-color: #ff6b15;
+        font-family: "Camorand Garamond"; } }
+
+/*----------------------------------EXPOSICIONES----------------------------------*/
+.cuerpoe {
+  background-image: url("../img/fondoexposiciones.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Camorand Garamond"; }
+
+#expo {
+  padding: 30px 80px; }
+
+.sub {
+  font-family: "Camorand Garamond";
+  font-style: normal;
+  font-size: 25px;
+  margin: 3% 0px;
+  color: #20b2abb4;
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .sub:hover {
+    color: white;
+    font-size: 30px;
+    transition: all 2s; }
+
+.contenedor-tarjetas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  gap: 30px; }
+  .contenedor-tarjetas .cont {
+    background-color: #f8a436;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contenedor-tarjetas .cont .img {
+      width: 80%;
+      height: 50%;
+      border-radius: 20px;
+      margin-top: 5%; }
+  .contenedor-tarjetas p {
+    font-size: 120%;
+    text-align: justify;
+    margin: 2% 3%; }
+
+@media (max-width: 768px) {
+  #expo {
+    padding: 30px 25px; }
+  h1 {
+    font-size: 5.5vw; }
+  .sub {
+    font-size: 3vw;
+    text-shadow: 0px 2.3px 2.3px rgba(0, 0, 0, 0.25), 0px 2.3px 2.3px rgba(0, 0, 0, 0.25), 0px 2.3px 2.3px rgba(0, 0, 0, 0.25), 0px 2.3px 2.3px rgba(0, 0, 0, 0.25);
+    text-align: center; } }
+
+@media (max-width: 320px) {
+  #expo {
+    padding: 30px 30px; }
+  h1 {
+    font-size: 7vw; }
+  .sub {
+    font-size: 5vw;
+    text-shadow: 0px 2.3px 2.3px rgba(0, 0, 0, 0.25), 0px 2.3px 2.3px rgba(0, 0, 0, 0.25), 0px 2.3px 2.3px rgba(0, 0, 0, 0.25), 0px 2.3px 2.3px rgba(0, 0, 0, 0.25);
+    text-align: center; }
+  .contenedor-tarjetas {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr; }
+  p {
+    font-size: 5vw;
+    text-align: justify;
+    margin: 2% 3%; } }
+
+body {
+  background-image: url("../img/fondogaleria.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Camorand Garamond"; }
+
+#galeria {
+  padding: 30px 100px; }
+
+.titulo-galeria {
+  text-align: center;
+  font-family: "Camorand Garamond";
+  font-style: normal;
+  font-size: 4vw;
+  margin-top: 5%;
+  color: #f49609b8;
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.contenedor {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  gap: 25px;
+  background-color: white;
+  padding: 3% 3%;
+  border-radius: 2%; }
+  .contenedor .img figure {
+    width: 100%;
+    height: 100%; }
+    .contenedor .img figure img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 1, 0.8); }
+      .contenedor .img figure img:hover {
+        box-shadow: 29px 22px 28px -8px rgba(0, 0, 0, 0.52);
+        -webkit-box-shadow: 29px 22px 28px -8px rgba(0, 0, 0, 0.52);
+        -moz-box-shadow: 29px 22px 28px -8px rgba(0, 0, 0, 0.52);
+        border-color: #ee8700;
+        border: 25%;
+        transform: scale(1.03, 1.03);
+        border-radius: 10px; }
+
+.contenedor .img:nth-child(1) {
+  grid-column-start: span 2; }
+
+.contenedor .img:nth-child(4) {
+  grid-row-start: span 2; }
+
+@media (max-width: 800px) {
+  .contenedor {
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 200px; }
+  .contenedor .img:nth-child(1) {
+    grid-column-start: span 1; } }
+
+@media (max-width: 500px) {
+  .contenedor {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr); }
+  .contenedor .img {
+    height: 200px; } }
+
+body {
+  background-image: url("../img/fondovisitas.jpg");
+  background-repeat: round;
+  background-size: cover;
+  font-family: "Camorand Garamond"; }
+
+#visitas {
+  padding: 30px 100px; }
+
+.titulo-visitas {
+  text-align: center;
+  font-family: "Camorand Garamond";
+  font-style: normal;
+  font-size: 4vw;
+  margin-bottom: 3%;
+  color: #f49609b8;
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.parte1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .parte1 .img0 {
+    width: 40%;
+    height: 35%;
+    margin-bottom: 3%;
+    border-radius: 20px; }
+    .parte1 .img0 text-visita {
+      width: 50%;
+      text-align: justify; }
+
+.subtitulo {
+  font-family: "Camorand Garamond";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: #f49609b8;
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.subtitulo1 {
+  margin-bottom: 3%;
+  font-family: "Camorand Garamond";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  mix-blend-mode: normal;
+  text-align: center; }
+  .subtitulo1:hover {
+    color: rgba(14, 58, 206, 0.692);
+    font-size: 25px;
+    transition: all 2s;
+    text-align: center; }
+
+.parte2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px; }
+  .parte2 .art1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7d025;
+    border-radius: 10px; }
+    .parte2 .art1 .img1 {
+      width: 50%;
+      border-radius: 15px;
+      justify-items: center;
+      margin: 3% 0px; }
+      .parte2 .art1 .img1 .text1-visita {
+        font-size: 120%; }
+  .parte2 .art2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f59517;
+    border-radius: 10px; }
+    .parte2 .art2 .img2 {
+      width: 50%;
+      border-radius: 15px;
+      justify-items: center;
+      margin: 3% 0px; }
+      .parte2 .art2 .img2 .text1-visita {
+        font-size: 120%; }
+  .parte2 .art3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f59517;
+    border-radius: 10px; }
+    .parte2 .art3 .img3 {
+      width: 50%;
+      border-radius: 15px;
+      justify-items: center;
+      margin: 3% 0px; }
+      .parte2 .art3 .img3 .text1-visita {
+        font-size: 120%; }
+  .parte2 .art4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7d025;
+    border-radius: 10px; }
+    .parte2 .art4 .img4 {
+      width: 50%;
+      border-radius: 15px;
+      justify-items: center;
+      margin: 3% 0px; }
+      .parte2 .art4 .img4 .text1-visita {
+        font-size: 120%; }
+
+p {
+  font-size: 1.5vw;
+  text-align: justify;
+  margin: 2% 3%; }
+
+@media (max-width: 768px) {
+  #visitas {
+    padding: 30px 40px; }
+  p {
+    font-size: 2.5vw;
+    text-align: justify;
+    margin: 2% 3%; } }
+
+@media (max-width: 320px) {
+  #visitas {
+    padding: 30px 50px; }
+  .parte1 {
+    flex-direction: column; }
+    .parte1 .img0 {
+      width: 50%;
+      height: 40%;
+      margin-bottom: 3%;
+      border-radius: 10px; }
+  .parte2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: justify; }
+  .subtitulo1 {
+    text-align: center;
+    font-size: 5vw; }
+    .subtitulo1:hover {
+      color: rgba(14, 58, 206, 0.692);
+      font-size: 5.5vw; }
+  .titulo-visitas {
+    text-align: center;
+    font-family: "Camorand Garamond";
+    font-style: normal;
+    font-size: 150%;
+    margin-bottom: 3%;
+    color: #f49609b8;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .subtitulo {
+    font-family: "Camorand Garamond";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f49609b8;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 5% 0px; }
+  p {
+    font-size: 5vw;
+    text-align: justify;
+    margin: 2% 3%; } }
+
+body {
+  background-image: url("../img/fondoservicios.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Camorand Garamond"; }
+
+#servicios {
+  padding: 30px 100px; }
+
+titulo-serv {
+  text-align: center;
+  font-family: "Camorand Garamond";
+  font-style: normal;
+  font-size: 4vw;
+  color: #f49609b8;
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+sub-serv {
+  text-align: center;
+  font-family: "Camorand Garamond";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35vw;
+  margin-top: 3%;
+  color: #f49609b8;
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  sub-serv:hover {
+    color: white;
+    font-size: 30px;
+    transition: all 2s; }
+
+.serv1 .biblioteca, .serv1 .archivo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .serv1 .biblioteca p, .serv1 .archivo p {
+    text-align: justify; }
+
+.serv2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px; }
+  .serv2 .tienda, .serv2 .estacionamiento, .serv2 .cafe, .serv2 .visitas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8a436;
+    border-radius: 10px; }
+  .serv2 .tienda, .serv2 .cafe {
+    background-color: #f0cf3e; }
+
+sub-sub-serv {
+  margin-bottom: 3%;
+  color: #20b2abb4;
+  font-size: 2vw;
+  text-align: center; }
+  sub-sub-serv:hover {
+    color: rgba(14, 58, 206, 0.692);
+    font-size: 30px;
+    transition: all 2s; }
+
+.img-serv {
+  width: 50%;
+  height: 35%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 20px; }
+
+@media (max-width: 768px) {
+  #servicios {
+    padding: 30px 50px; }
+  .img-serv {
+    width: 60%;
+    height: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 20px; }
+  .text1-serv {
+    margin: 8%, 8%; } }
+
+@media (max-width: 320px) {
+  #servicios {
+    padding: 30px 30px; }
+  .serv1 .texto-serv {
+    font-size: 5vw;
+    margin-bottom: 10%; }
+  .serv2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: justify; }
+    .serv2 .text1-serv {
+      font-size: 5vw; } }

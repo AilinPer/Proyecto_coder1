@@ -6,36 +6,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>INICIO</title>
 </head>
 <body>
     <header>
-        <!--Este div engloba el logo que contendrá mi barra de navegación del lado izquierdo-->
-        <div class="logo">
-            <img src="./img/mam-logo.svg" alt=""></div>
-            <!--Este div engloba el menu de mi barra de navegación que se encontrará en el lado derecho-->
-            <div class="nav">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="index.html">INICIO</a>
+        <div class="container">
+        <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <img class="logo" src="./img/mam-logo.svg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">INICIO</a>
                         </li>
-                        <li>
-                            <a href="pages/exposiciones.html">EXPOSICIONES</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/exposiciones.html">EXPOSICIONES</a>
                         </li>
-                        <li>
-                            <a href="pages/galeria.html">GALERIA</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/galeria.html">GALERIA</a>
                         </li>
-                        <li>
-                            <a href="pages/visitas.html">VISITAS</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/visitas.html">VISITAS</a>
                         </li>
-                        <li>
-                            <a href="pages/servicios.html">SERVICIOS</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">SERVICIOS</a>
                         </li>
                     </ul>
-                </nav>
-            </div>
+                </div>
+                </div>
+        </nav>
+        </div>
     </header>
     <main id="index">
         <h1 class="animate__animated animate__bounce">NUESTRA HISTORIA</h1> 
@@ -56,7 +61,27 @@
             </section>
             <!-- Este otro main contiene otra imagen que será el centro de todo el body -->
             <div class="centro">
-                <img class="img2" data-aos="flip-down" src="./img/facha-pano_1.jpg" alt="historia">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img2" src="./img/carousel1.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                    <div class="carousel-item">
+                        <img class="img2" src="./img/carousel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img2" src="./img/carousel3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
             <!--Este div contiene la información que se encontrará debajo de la imagen del centro-->
             <section class="text2">
@@ -99,5 +124,6 @@
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
