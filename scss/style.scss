@@ -1,30 +1,4 @@
-$nav_footer: #D9B310;
-$font: 'Camorand Garamond';
-$titulo_color: #f49609b8;
-$shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-$fondo_button:#ee8700;
-$fondo_tarjeta:#f8a436;
-$borde_button:#ff6b15;
-$subtitulo:#20b2abb4;
-
-@mixin flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} 
-
-@mixin medias{
-    display: flex;
-    flex-direction: column;
-}
-
-@mixin tamaño-img{
-    .logo{
-    width: 20%;
-    padding-left: 5%;
-    }
-}
-
+@import "main";
 
 /*-----------------------INDEX---------------------------*/
 *{
@@ -38,7 +12,6 @@ body{
     background-size: cover;
     font-family:$font;
 }
-@import "header.scss";
 #index{
     padding: 30px 100px;
 }
@@ -96,7 +69,6 @@ h2{
     text-shadow: $shadow;
 }
 .text3{
-    @include flex;
     align-items: center;
     margin: 10px 0px;
     font-family: $font ;
@@ -110,7 +82,6 @@ h2{
         border-radius: 10%;
     }
 }
-@import "_footer.scss";
 
 /*----------------MEDIA QUERIES INDEX----------------------------------*/
 @media(max-width:320px){
@@ -143,8 +114,6 @@ h2{
         font-size: 5.3vw;
     }
 }
-
-@import "_media-mobile.scss";
 
 @media(max-width:768px){
     h1{
@@ -190,9 +159,6 @@ h2{
     }
 } 
 
-@import "_media-tablet.scss";
-
-
 /*----------------------------------EXPOSICIONES----------------------------------*/
 .cuerpoe{
     background-image: url("../img/fondoexposiciones.jpg");
@@ -222,14 +188,15 @@ h2{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr, 1fr, 1fr;
     gap: 30px;
-    @import "tarjeta-expo.scss";
     p{
         font-size: 120%;
         text-align: justify;
         margin:2% 3%;
     }
 }
+
 //----------------------------MEDIA QUERIES-EXPO---------------------------------//
+
 @media(max-width:768px){
     #expo{
         padding: 30px 25px;
@@ -664,3 +631,54 @@ sub-sub-serv{
     }
 
 }
+.form{
+    form {
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 500px;
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+    input[type=text], input[type=email], input[type=tel], textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    input[type=submit], input[type=reset] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    
+    input[type=submit]:hover, input[type=reset]:hover {
+        background-color: #45a049;
+    }
+    
+    input[type=submit]:active, input[type=reset]:active {
+        background-color: #3e8e41;
+    }
+}
+
+
+
+
+
+
+
+
